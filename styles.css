@@ -1,0 +1,141 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #161616;
+    color: #cac9c9;
+  }
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+  }
+nav {
+    display: flex;
+    justify-content: space-between
+;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+/* Game card styles */
+h1 {
+    text-align: center;
+}
+.game-card {
+    background-image: url(/Images/image_3.png);
+    background-size: cover;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.game-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: center;
+}
+
+.game-card p {
+    font-size: 2rem;
+    margin-bottom: center;
+    text-align: center;
+}
+
+.game-card a {
+    display: inline-block;
+    background-color: #00a3c0;
+    color: #aaaaaa;
+    padding: 1em 1em;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin: 0 auto;
+}
+
+.game-card a:hover {
+    background-color: #303030;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    display: inline-block;
+    background-color: #252525;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+footer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+/* Center the button horizontally */
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Set a height for the section */
+}
+
+.goto-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e9c41e;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.goto-button:hover {
+    background-color: #ff9900;
+}
